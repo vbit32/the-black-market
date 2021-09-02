@@ -62,8 +62,42 @@
    font-family: 'Walkway';
    src: url('../assets/fonts/Walkway_Oblique_Black.ttf'); /* IE9 Compat Modes */
    font-weight: 900;
+   font-style: italic;
+ }
+ @font-face {
+   font-family: 'Walkway';
+   src: url('../assets/fonts/Walkway_Oblique_Black.ttf'); /* IE9 Compat Modes */
+   font-weight: 900;
+   font-style: italic;
+ }
+
+
+ /*triester*/
+ @font-face {
+   font-family: 'TriesterSans';
+   src: url('../assets/fonts/TriesterSans.otf'); /* IE9 Compat Modes */
+   font-weight: normal;
    font-style: normal;
  }
+ @font-face {
+   font-family: 'TriesterSans';
+   src: url('../assets/fonts/TriesterSans.ttf'); /* IE9 Compat Modes */
+   font-weight: normal;
+   font-style: normal;
+ }
+ @font-face {
+   font-family: 'TriesterSansOutline';
+   src: url('../assets/fonts/TriesterSansOutline.ttf'); /* IE9 Compat Modes */
+   font-weight: normal;
+   font-style: normal;
+ }
+ @font-face {
+   font-family: 'TriesterVector';
+   src: url('../assets/fonts/TriesterVector.ttf'); /* IE9 Compat Modes */
+   font-weight: normal;
+   font-style: normal;
+ }
+
 
 :root {
   --bs-blue: #2937f0;
@@ -11347,7 +11381,7 @@ html {
 }
 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  background: linear-gradient(45deg, #000000, #000000) !important
 }
 
 .font-alt {
