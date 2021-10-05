@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -30,5 +30,9 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
+    $(".navbar .container").append("<div class='glitch-window'></div>");
+//fill div with clone of real header
+$( "#bmtitle" ).clone().appendTo( ".glitch-window" );
 
 });
