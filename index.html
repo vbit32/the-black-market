@@ -141,7 +141,7 @@
                         <br />
                         Talk to us.
                     </h2>
-                    <a class="btn btn-outline-light py-3 px-4" href="https://startbootstrap.com/theme/new-age" target="_blank">Apply to Vend</a>
+                    <a class="btn btn-outline-light py-3 px-4" data-bs-toggle="modal" data-bs-target="#feedbackModal2">Apply to Vend</a>
                 </div>
             </div>
         </section>
@@ -246,11 +246,27 @@
             </div>
         </footer>
         <!-- Feedback Modal-->
+
+
+        <div class="modal fade" id="feedbackModal2" tabindex="-1" aria-labelledby="feedbackModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <h5 class="modal-title font-alt text-white"  id="feedbackModalLabel">How to Apply</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                      <img src="assets/img/vending_info.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header bg-gradient-primary-to-secondary p-4">
-                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel">Get in Touch</h5>
+                        <h5 class="modal-title font-alt text-white"  id="feedbackModalLabel">Get in Touch</h5>
                         <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body border-0 p-4">
