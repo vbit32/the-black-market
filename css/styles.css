@@ -11630,9 +11630,21 @@ footer a:hover, footer a:active, footer a:focus {
   padding-top: 15%;
 }
 
+#buy-tickets {
+    font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  background-color: #ef3d8f8c;
+  width: fit-content;
+  margin-bottom: 30px;
+  font-weight: 900;
+  letter-spacing: 0.14em;
+}
+
 .masthead {
   background-image: linear-gradient(to bottom, rgb(249 105 119 / 72%), rgb(156 214 126 / 65%)), url(../assets/img/IMG_4330.JPG);
-  padding-top: 26%;
+  padding-top: 420px;
   padding-bottom: 5rem;
   background-size: cover;
 }
@@ -11735,6 +11747,10 @@ footer a:hover, footer a:active, footer a:focus {
       left: 5%;
       width: 90%;
     }
+    .masthead h1 {
+      font-size: 59px !important;
+      padding: 0 10px;
+    }
 }
 
 @media (max-width: 974px){
@@ -11743,6 +11759,7 @@ footer a:hover, footer a:active, footer a:focus {
       width: 86%;
       /* opacity: 1.4; */
   }
+  .masthead {padding-top:200px;}
 }
 
 @media (max-width: 751px){
