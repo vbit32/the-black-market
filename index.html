@@ -30,8 +30,8 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul style="margin:auto !important;" class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#about">ABOUT</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">CONTACT</a></li>
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="#download">VENDING</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" data-bs-toggle="modal" data-bs-target="#feedbackModal">CONTACT</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#vending">VENDING</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#download">EVENTS</a></li>
                     </ul>
                     <button class="btn btn-primary px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
@@ -104,8 +104,8 @@
         </header>
 
         <!-- Basic features section-->
-        <section class="bg-light">
-            <div class="container px-5">
+        <section id="about" class="bg-light">
+            <div class="container px-5 offset">
                 <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                     <div class="col-12 col-lg-5">
                         <h2 class="display-4 lh-1 mb-4">South Florida's #1 Alternative Arts Market</h2>
@@ -119,7 +119,7 @@
             </div>
         </section>
         <!-- Quote/testimonial aside-->
-        <aside id="about" style="    background: linear-gradient(
+        <aside style=" background: linear-gradient(
 45deg
 , #000000, #1b0427) !important;" class="text-center bg-gradient-primary-to-secondary">
             <div class="container px-5">
@@ -133,8 +133,8 @@
             </div>
         </aside>
         <!-- Call to action section-->
-        <section class="cta">
-            <div class="cta-content">
+        <section class="cta" id="vending">
+            <div class="cta-content offset">
                 <div class="container px-5">
                     <h2 class="text-white display-1 lh-1 mb-4">
                         Want to vend your wares at the Black Market?
@@ -225,10 +225,10 @@
         <!-- App badge section-->
         <section class="bg-gradient-primary-to-secondary" id="download">
             <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Follow on Instagram</h2>
+                <h2 class="text-center text-white font-alt mb-4">Follow us on Instagram</h2>
                 <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                    <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
+                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/ig.png" alt="..." /></a>
+                    <p style="margin-bottom:0; font-size:22px;">@THEBLACKMARKETMIA</p>
                 </div>
             </div>
         </section>
@@ -237,11 +237,7 @@
             <div class="container px-5">
                 <div class="text-white-50 small">
                     <div class="mb-2">&copy; The Black Market MIA</div>
-                    <a href="#!">Privacy</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a>
+
                 </div>
             </div>
         </footer>

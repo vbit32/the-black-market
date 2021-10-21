@@ -11404,7 +11404,7 @@ section {
 }
 
 .app-badge {
-  height: 3rem;
+  height: 6rem;
 }
 
 #mainNav {
@@ -11625,10 +11625,14 @@ footer a:hover, footer a:active, footer a:focus {
   color: rgba(255, 255, 255, 0.75);
   text-decoration: underline;
 }
+.offset {
+  margin-top: -15%;
+  padding-top: 15%;
+}
 
 .masthead {
   background-image: linear-gradient(to bottom, rgb(101 186 135 / 52%), rgb(219 143 224 / 73%)), url(../assets/img/IMG_4330.JPG);
-  padding-top: 30.5rem;
+  padding-top: 26%;
   padding-bottom: 5rem;
   background-size: cover;
 }
@@ -11717,13 +11721,36 @@ footer a:hover, footer a:active, footer a:focus {
 .glitch-window{
 	position: absolute;
   top: 0px;
-  left: 49px;
-  width: 93%;
+  left: 4%;
+  width: 92%;
 	color: #222222;
 	filter: drop-shadow(2px 0 #F9F8F8) drop-shadow(-1px 0 yellow) drop-shadow(1px 0 green);
 	overflow: hidden;
 	animation: crt-me 2500ms infinite linear alternate-reverse;
 	// background: red;
+}
+
+@media (max-width: 1182px) {
+  .glitch-window {
+      left: 5%;
+      width: 90%;
+    }
+}
+
+@media (max-width: 974px){
+  .glitch-window {
+      left: 7%;
+      width: 86%;
+      /* opacity: 1.4; */
+  }
+}
+
+@media (max-width: 751px){
+  .glitch-window {
+    left: 9%;
+    width: 82%;
+      /* opacity: 1.4; */
+  }
 }
 
 
