@@ -11641,6 +11641,9 @@ footer a:hover, footer a:active, footer a:focus {
   font-weight: 900;
   letter-spacing: 0.14em;
 }
+#buy-tickets:hover {
+  color:white;
+}
 
 .masthead {
   background-image: linear-gradient(to bottom, rgb(249 105 119 / 72%), rgb(156 214 126 / 65%)), url(../assets/img/IMG_4330.JPG);
