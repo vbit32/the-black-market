@@ -11645,6 +11645,9 @@ footer a:hover, footer a:active, footer a:focus {
   color:white;
 }
 
+/*to use with ticket iframe title*/
+.css-1etmq2t {font-size:55px;}
+
 .masthead {
   background-image: linear-gradient(to bottom, rgb(249 105 119 / 72%), rgb(156 214 126 / 65%)), url(../assets/img/IMG_4330.JPG);
   padding-top: 420px;
